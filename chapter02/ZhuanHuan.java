@@ -11,8 +11,8 @@ public class ZhuanHuan {
         byte b2 = 1;
         short s1 = 2;
 //        short s2 = b2 + s1;  (b2 + s1) 会把精度提升到操作数中最大的那个类型 int
-//        char -> int -> long-> float -> double
-//        byte-> short -> int -> long -> double
+//        char[2] -> int[4] -> long[8]-> float[4] -> double[8]
+//        byte[1]-> short[2] -> int[4] -> long[8] -> double[8]
 //        char , byte, short 三者进行计算时先转换成int类型。
 
 //        强转类型
@@ -20,6 +20,9 @@ public class ZhuanHuan {
         int i1 = (int)1.9;
         System.out.println(i1);
 
+        String s  = "12.3";
+        Double d = Double.parseDouble(s);
+        System.out.println(d);
 
 
 

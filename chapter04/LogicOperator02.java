@@ -22,5 +22,9 @@ public class LogicOperator02 {
         if ((z++ == 46) && (y = true)) z++;
         if ((x = false) || (++z == 49)) z++;
         System.out.println("z=" + z);
+        int s = Integer.parseInt("12");
+        System.out.println(s);
+        Double d = 3d; // d 表示double类型
+        System.out.println(d);
     }
 }
