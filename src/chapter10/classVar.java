@@ -3,10 +3,10 @@ package chapter10;
 public class classVar {
     public static void main(String[] args) {
         Child aa = new Child("aa");
-        aa.count++;
+        Child.count++;
         System.out.println(Child.count);
         Child bb = new Child("bb");
-        bb.count++;
+        Child.count++;
         System.out.println(Child.count);
 
     }
