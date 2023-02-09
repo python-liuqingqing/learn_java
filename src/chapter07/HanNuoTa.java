@@ -1,7 +1,5 @@
 package chapter07;
 
-import java.util.Scanner;
-
 // 汉诺塔
 public class HanNuoTa {
     public static void main(String[] args) {
